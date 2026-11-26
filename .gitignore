@@ -2,3 +2,6 @@
 /node_modules/
 /.static-publish/
 /static-publisher/
+
+# IDE
+/.idea/
