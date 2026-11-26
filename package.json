@@ -1,0 +1,12 @@
+{
+  "name": "static-publish-example",
+  "private": true,
+  "type": "module",
+  "description": "Static pages behind a Google sign-in, on Fastly Compute, with @fastly/compute-js-static-publish.",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "devDependencies": {
+    "@fastly/compute-js-static-publish": "^8.1.0-beta.9"
+  }
+}

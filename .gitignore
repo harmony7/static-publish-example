@@ -1,0 +1,4 @@
+# @fastly/compute-js-static-publish
+/node_modules/
+/.static-publish/
+/static-publisher/
