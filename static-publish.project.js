@@ -25,7 +25,6 @@ const project = {
     sources: [
       { type: 'host', pattern: '{collection}.apps.example.com' }, // Change this
     ],
-    noindex: false,
   },
 
   // The options of the plugins in hono-compose/, by plugin name.
