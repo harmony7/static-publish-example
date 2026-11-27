@@ -7,6 +7,6 @@
     "test": "node --test \"test/*.test.js\""
   },
   "devDependencies": {
-    "@fastly/compute-js-static-publish": "^8.1.0-beta.9"
+    "@fastly/compute-js-static-publish": "^8.1.0"
   }
 }

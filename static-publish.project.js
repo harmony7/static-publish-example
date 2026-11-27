@@ -73,7 +73,7 @@ const project = {
     template: "hono",
     // The first deploy creates the service and writes its ID here.
     serviceId: undefined,
-    staticPublishVersion: "8.1.0-beta.9",
+    staticPublishVersion: "8.1.0",
     fastlyToml: {
       // The first deploy creates these resources, and asks for the values of
       // the secrets.
