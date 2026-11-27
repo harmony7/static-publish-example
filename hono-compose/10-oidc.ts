@@ -1,7 +1,10 @@
 // The sign-in plugin: a sign-in with Google (OpenID Connect) in front of the
-// whole site. The 10- prefix puts this plugin before other plugins in each
-// phase. The sign-in code is in lib/auth/, and its config comes from
+// whole site. The sign-in code is in lib/auth/, and its config comes from
 // templateOptions.hono.compose.plugins.oidc.
+//
+// The 10- prefix on the file name sets the order in which the plugins run.
+// Plugins with smaller numbers run before this one, and plugins with larger
+// numbers run after it.
 //
 // All of it is in the middleware phase, which comes before the routes of all
 // plugins and before the published files:
